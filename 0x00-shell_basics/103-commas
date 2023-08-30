@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la -1 | tr '\n' ', '
+ls -A -1 -p | tr '\n' ','
