@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name "hello" -user betty -exec chown guillaume {} 
+sudo find /path/to/search -user guillaume -exec chown betty: {"hello"} \
