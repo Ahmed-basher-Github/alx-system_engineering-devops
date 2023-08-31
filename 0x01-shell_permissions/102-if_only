@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty: hello
+sudo find /path/to/search -user guillaume -exec chown betty: {} \;
